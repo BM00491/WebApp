@@ -1,0 +1,9 @@
+.root{
+
+}
+.Button{
+    -fx-background-color: 0,0,0,0;
+}
+.Button.Hover{
+    -fx-background-color: #C576D8;
+}

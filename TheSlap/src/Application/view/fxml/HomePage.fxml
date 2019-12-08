@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="525.0" prefWidth="600.0" stylesheets="@HomePage.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.view.fxml.HomePage">
+   <children>
+      <VBox layoutX="14.0" layoutY="42.0" prefHeight="525.0" prefWidth="100.0" style="-fx-background-color: #A486FB;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="78.0" prefWidth="100.0" style="-fx-background-color: 0,0,0,0;" text="HOME">
+               <graphic>
+                  <FontAwesomeIconView fill="#dd300d" glyphName="HOME" size="45" />
+               </graphic>
+            </Button>
+            <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: 0,0,0,0;" text="PROFILE">
+               <graphic>
+                  <FontAwesomeIconView glyphName="USER" size="35" text="">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="BLACK" offset="0.2586009400797883" />
+                              <Stop color="WHITE" offset="0.580835012047241" />
+                              <Stop color="WHITE" offset="0.6819923371647509" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill></FontAwesomeIconView>
+               </graphic>
+            </Button>
+            <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: 0,0,0,0;" text="SLAPS">
+               <graphic>
+                  <FontAwesomeIconView glyphName="SHARE" size="35">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="BLACK" offset="0.2586009400797883" />
+                              <Stop color="WHITE" offset="0.580835012047241" />
+                              <Stop color="WHITE" offset="0.6819923371647509" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill></FontAwesomeIconView>
+               </graphic>
+            </Button>
+            <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: 0,0,0,0;" text="CHAT">
+               <graphic>
+                  <FontAwesomeIconView glyphName="SEND" size="35">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="BLACK" offset="0.2586009400797883" />
+                              <Stop color="WHITE" offset="0.580835012047241" />
+                              <Stop color="WHITE" offset="0.6819923371647509" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill></FontAwesomeIconView>
+               </graphic>
+            </Button>
+            <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: 0,0,0,0;" text="UPLOAD">
+               <graphic>
+                  <FontAwesomeIconView glyphName="PLAY" size="35">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="BLACK" offset="0.13745704467353947" />
+                              <Stop color="BLACK" offset="0.18213058419243985" />
+                              <Stop color="BLACK" offset="0.27835051546391754" />
+                              <Stop color="BLACK" offset="0.36082474226804123" />
+                              <Stop color="WHITE" offset="0.4466168977366983" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill></FontAwesomeIconView>
+               </graphic>
+            </Button>
+            <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: 0,0,0,0;" text="MODE">
+               <graphic>
+                  <FontAwesomeIconView glyphName="STAR" size="35">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="WHITE" />
+                              <Stop color="WHITE" offset="0.48109965635738833" />
+                              <Stop color="BLACK" offset="0.5753841292412213" />
+                              <Stop color="BLACK" offset="0.5774775842319391" />
+                              <Stop color="BLACK" offset="0.5805980171426315" />
+                              <Stop color="BLACK" offset="0.5862068965517241" />
+                              <Stop color="BLACK" offset="0.5886953430501244" />
+                              <Stop color="BLACK" offset="0.5895643243670259" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </FontAwesomeIconView>
+               </graphic>
+            </Button>
+            <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: 0,0,0,0;" text="SETTINGS">
+               <graphic>
+                  <FontAwesomeIconView fill="WHITE" glyphName="GEAR" size="35" />
+               </graphic>
+            </Button>
+            <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: 0,0,0,0;" text="CONTACT US">
+               <graphic>
+                  <FontAwesomeIconView fill="#07dd36" glyphName="PHONE" size="35" />
+               </graphic>
+            </Button>
+         </children>
+      </VBox>
+      <AnchorPane layoutX="99.0" prefHeight="525.0" prefWidth="500.0" style="-fx-background-color: WHITE;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane prefHeight="78.0" prefWidth="500.0" style="-fx-background-color: RED;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label layoutX="66.0" layoutY="14.0" prefHeight="58.0" prefWidth="236.0" text="    THE SLAP">
+                     <font>
+                        <Font name="Amoebic" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
